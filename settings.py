@@ -1,0 +1,57 @@
+import pygame
+
+# Inisialisasi
+pygame.font.init()
+
+# --- KONSTANTA ---
+WIDTH, HEIGHT = 1200, 800
+FPS = 60
+
+# --- WARNA UTAMA ---
+WHITE = (255, 255, 255)
+BLACK = (30, 30, 30)
+BLUE = (52, 152, 219)
+BLUE_DARK = (41, 128, 185)
+GREEN = (46, 204, 113)
+GREEN_DARK = (39, 174, 96)
+YELLOW = (241, 196, 15)
+YELLOW_DARK = (243, 156, 18)
+RED = (231, 76, 60)
+RED_DARK = (192, 57, 43)
+PURPLE = (155, 89, 182)
+PURPLE_DARK = (142, 68, 173)
+ORANGE = (230, 126, 34)
+ORANGE_DARK = (211, 84, 0)
+CYAN = (26, 188, 156)
+CYAN_DARK = (22, 160, 133)
+PINK = (255, 107, 129)
+
+# UI Colors
+BG_COLOR = (236, 240, 241)
+BG_GRADIENT_START = (41, 128, 185)
+BG_GRADIENT_END = (109, 213, 250)
+BUTTON_PRESSED = (33, 97, 140)
+INPUT_BOX_COLOR = (255, 255, 255)
+INPUT_ACTIVE_COLOR = (52, 152, 219)
+
+# --- WARNA BENDERA ---
+FLAG_RED = (220, 20, 60)
+FLAG_WHITE = (255, 255, 255)
+FLAG_BLACK = (0, 0, 0)
+FLAG_YELLOW = (255, 215, 0)
+FLAG_BLUE = (0, 51, 153)
+FLAG_GREEN = (0, 128, 0)
+FLAG_ORANGE = (255, 140, 0)
+FLAG_SAFFRON = (255, 153, 51)
+
+# --- FONT ---
+FONT_TITLE = pygame.font.Font(None, 84)
+FONT_LARGE = pygame.font.Font(None, 52)
+FONT_MEDIUM = pygame.font.Font(None, 40)
+FONT_SMALL = pygame.font.Font(None, 32)
+FONT_TINY = pygame.font.Font(None, 24)
+
+# --- SETTINGS ---
+ANIMATION_SPEED = 0.15
+PARTICLE_LIFETIME = 60
+SHAKE_INTENSITY = 5
