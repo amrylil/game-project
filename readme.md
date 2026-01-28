@@ -16,8 +16,8 @@ dan Kelompok kami berisi dari:
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/GAME_PROJECT.git
-cd GAME_PROJECT
+git clone https://github.com/amrylil/game-project.git
+cd game-project
 ```
 
 ### 2️⃣ Buat & Aktifkan Virtual Environment
